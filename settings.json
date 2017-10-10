@@ -1,0 +1,16 @@
+// Поместите параметры в этот файл, чтобы перезаписать параметры по умолчанию.
+{
+    "files.autoSave": "onFocusChange",
+    "editor.fontSize": 11.5,
+    "editor.fontFamily": "Verdana, Consolas, 'Courier New', monospace",
+    "workbench.tips.enabled": false,
+    "workbench.iconTheme": "vs-minimal",
+    "editor.lineHeight": 20,
+    "editor.letterSpacing": 1,
+    "editor.insertSpaces": false,
+    "editor.roundedSelection": false,
+    "editor.cursorBlinking": "solid",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\cmd.exe",
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false
+}
