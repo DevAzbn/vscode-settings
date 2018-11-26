@@ -1,16 +1,52 @@
-// Поместите параметры в этот файл, чтобы перезаписать параметры по умолчанию.
 {
     "files.autoSave": "onFocusChange",
-    "editor.fontSize": 11.5,
+    "editor.fontSize": 13,
     "editor.fontFamily": "Verdana, Consolas, 'Courier New', monospace",
     "workbench.tips.enabled": false,
     "workbench.iconTheme": "vs-minimal",
     "editor.lineHeight": 20,
     "editor.letterSpacing": 1,
     "editor.insertSpaces": false,
+    "editor.tabSize": 4,
     "editor.roundedSelection": false,
     "editor.cursorBlinking": "solid",
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\cmd.exe",
     "git.enableSmartCommit": true,
-    "git.confirmSync": false
+    "git.confirmSync": false,
+    "explorer.openEditors.visible": 20,
+    "explorer.sortOrder": "filesFirst",
+    "keyboard.dispatch": "keyCode",
+    "window.titleBarStyle": "custom",
+    "workbench.startupEditor": "none",
+    "workbench.colorTheme": "Default Light+",
+    "window.zoomLevel": 0,
+    "workbench.enableExperiments": false,
+    "workbench.enableLegacyStorage": false,
+    "files.exclude": {
+        "**/node_modules": true
+    },
+    "editor.codeActionsOnSaveTimeout": 1000,
+    "http.proxyStrictSSL": false,
+    "update.channel": "none",
+    "update.enableWindowsBackgroundUpdates": false,
+    "update.showReleaseNotes": false,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "git.confirmEmptyCommits": false,
+    "php.validate.enable": false,
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/*.log": true,
+        "**/**._js": true,
+        "**/**.log": true,
+        "**/build/**": true,
+        "**/node_modules/*/**": true,
+        "**/src/_/**": true
+    },
+    "search.exclude": {
+        "**/.git": true,
+        "**/build": true,
+        "**/cache": true,
+        "**/src/_": true
+    }
 }
