@@ -21,29 +21,32 @@
     "window.zoomLevel": 0,
     "workbench.enableExperiments": false,
     "workbench.enableLegacyStorage": false,
-    "files.exclude": {
-        "**/node_modules": true
-    },
-    "editor.codeActionsOnSaveTimeout": 1000,
+    "editor.codeActionsOnSaveTimeout": 500,
     "http.proxyStrictSSL": false,
-    "update.channel": "none",
-    "update.enableWindowsBackgroundUpdates": false,
+    "update.channel": "default",
+    "update.enableWindowsBackgroundUpdates": true,
     "update.showReleaseNotes": false,
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
     "git.confirmEmptyCommits": false,
+    "files.exclude": {
+        "**/.git": true,
+        "**/node_modules": true
+    },
     "files.watcherExclude": {
-        "**/.git/objects/**": true,
-        "**/.git/subtree-cache/**": true,
+        "**/.git/**": true,
+        "**/node_modules/*/**": true,
         "**/*.log": true,
         "**/**._js": true,
         "**/**.log": true,
         "**/build/**": true,
-        "**/node_modules/*/**": true,
-        "**/src/_/**": true
+        "**/src/_/**": true,
+        "*": true,
+        "**": true
     },
     "search.exclude": {
         "**/.git": true,
+        "**/node_modules": true,
         "**/build": true,
         "**/cache": true,
         "**/src/_": true
