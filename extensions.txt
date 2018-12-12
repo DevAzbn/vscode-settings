@@ -1,0 +1,3 @@
+alefragnani.Bookmarks
+eamodio.gitlens
+oderwat.indent-rainbow

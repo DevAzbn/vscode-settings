@@ -35,5 +35,15 @@
 	{
 		"key": "ctrl+shift+t",
 		"command": "-workbench.action.reopenClosedEditor"
+	},
+	{
+		"key": "alt+b",
+		"command": "bookmarks.toggle",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+alt+k",
+		"command": "-bookmarks.toggle",
+		"when": "editorTextFocus"
 	}
 ]
