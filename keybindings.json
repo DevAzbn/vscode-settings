@@ -45,5 +45,9 @@
 		"key": "ctrl+alt+k",
 		"command": "-bookmarks.toggle",
 		"when": "editorTextFocus"
+	},
+	{
+		"key": "alt+p",
+		"command": "git.push"
 	}
 ]
