@@ -19,5 +19,13 @@
 		"key": "ctrl+shift+i",
 		"command": "-editor.action.formatDocument",
 		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "alt+t",
+		"command": "workbench.action.terminal.new"
+	},
+	{
+		"key": "ctrl+shift+`",
+		"command": "-workbench.action.terminal.new"
 	}
 ]
