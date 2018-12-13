@@ -26,7 +26,6 @@
 	"editor.useTabStops": true,
 	"editor.codeActionsOnSaveTimeout": 500,
 	"workbench.startupEditor": "none",
-	"workbench.colorTheme": "Default Light+",
 	"workbench.enableExperiments": false,
 	"workbench.enableLegacyStorage": false,
 	"workbench.statusBar.feedback.visible": false,
