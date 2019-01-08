@@ -17,7 +17,7 @@
 	"editor.tabSize": 4,
 	"editor.roundedSelection": false,
 	"editor.cursorBlinking": "solid",
-	"editor.formatOnPaste": true,
+	"editor.formatOnPaste": false,
 	"editor.minimap.maxColumn": 30,
 	"editor.minimap.renderCharacters": false,
 	"editor.minimap.showSlider": "always",
@@ -50,7 +50,8 @@
 		"**/.hg": true,
 		"**/CVS": true,
 		"**/.DS_Store": true,
-		"**/node_modules": true
+		"**/node_modules": true,
+		"**/package-lock.json": true
 	},
 	"files.watcherExclude": {
 		"**/.git/objects/**": true,
@@ -60,7 +61,8 @@
 		"**/**.log": true,
 		"**/**._js": true,
 		"**/build/**": true,
-		"**/src/_/**": true
+		"**/src/_/**": true,
+		"**/package-lock.json": true
 	},
 	"search.showLineNumbers": true,
 	"search.useGlobalIgnoreFiles": true,
@@ -70,7 +72,8 @@
 		"**/node_modules": true,
 		"**/build": true,
 		"**/cache": true,
-		"**/src/_": true
+		"**/src/_": true,
+		"**/package-lock.json": true
 	},
 	"javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
 	"javascript.format.placeOpenBraceOnNewLineForFunctions": false,
@@ -87,5 +90,6 @@
 		"rgba(160,160,160,0.15)",
 		"rgba(192,192,192,0.15)",
 		"rgba(224,224,224,0.15)"
-	]
+	],
+	"terminal.integrated.rendererType": "dom"
 }
